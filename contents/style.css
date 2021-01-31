@@ -1,0 +1,112 @@
+#titlelink {
+  text-decoration: none;
+  color: black;
+}
+
+#title {
+  margin-left: 20px;
+  font-size: 3em;
+}
+
+#header {
+  justify-content: space-between;
+  width: 90vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  box-shadow: 0px 3px 2px 1px #bbb;
+  padding: 2.2vh 5vw 2.2vh 5vw;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 90vw;
+  justify-content: center;
+  background-color: white;
+  padding: 2.2vh 5vw 2.2vh 5vw;
+  box-shadow: 0px -3px 2px 1px #bbb;
+}
+
+#socials {
+  width: 8em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#people {
+  margin-bottom: 10vh;
+}
+
+#about {
+  margin-top: 15vh;
+}
+
+.logo {
+  height: 5em;
+  align-self: center;
+}
+
+.sect {
+  margin: 0;
+}
+
+.board_photo {
+  height: 15em;
+  border-radius: 10px;
+}
+
+.board_individual {
+  justify-content: space-between;
+  margin: 0 5vw 2vh 5vw;
+  width: 40vw;
+}
+
+.board_text {
+  flex: 1;
+  text-align: right;
+  align-content: right;
+  align-items: flex-end !important;
+  margin-right: 15px;
+}
+
+.spaced_horizontal {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.spaced_vertical {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.flex {
+  align-items: center;
+  display: flex;
+}
+
+.flexcol {
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 2em;
+}
+
+.fa {
+  color: black;
+}
+
+.img_link {
+  height: 32px;
+}
+
+.social {
+  font-size: 2em;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
